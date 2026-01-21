@@ -99,7 +99,7 @@ body {
 }
 
 .card img {
-    height: 250px;
+    height: auto;
     filter: contrast(1.15) brightness(1.05) saturate(1.1);
     width: 100%;    
     background-color: #000;
@@ -244,4 +244,5 @@ body {
         padding: 15px;
     }
 }
+
 
