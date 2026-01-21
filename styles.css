@@ -173,6 +173,9 @@ body {
    RESPONSIVE - TABLET
 ======================= */
 @media (max-width: 768px) {
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
     .logo img {
         width: 220px;
     }
@@ -244,6 +247,7 @@ body {
         padding: 15px;
     }
 }
+
 
 
 
