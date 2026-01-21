@@ -172,7 +172,7 @@ body {
 /* =======================
    RESPONSIVE - TABLET
 ======================= */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .logo img {
         width: 220px;
     }
@@ -244,3 +244,4 @@ body {
         padding: 15px;
     }
 }
+
