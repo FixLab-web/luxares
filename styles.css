@@ -99,13 +99,12 @@ body {
 }
 
 .card img {
+    width: 100%;
     height: auto;
-    filter: contrast(1.15) brightness(1.05) saturate(1.1);
-    width: 100%;    
-    background-color: #000;
-    object-fit: cover; 
-    object-position: center top;
+    aspect-ratio: 4 / 5; /* o 1 / 1 si las quieres cuadradas */
+    object-fit: cover;
 }
+
 
 
 .card-name {
@@ -244,5 +243,6 @@ body {
         padding: 15px;
     }
 }
+
 
 
