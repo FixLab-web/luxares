@@ -99,7 +99,7 @@ body {
 }
 
 .card img {
-    width: 100%;
+    width: 400px;
     height: auto;
     aspect-ratio: 4 / 5; /* o 1 / 1 si las quieres cuadradas */
     object-fit: cover;
@@ -243,6 +243,7 @@ body {
         padding: 15px;
     }
 }
+
 
 
 
